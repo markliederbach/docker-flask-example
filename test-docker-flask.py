@@ -15,7 +15,6 @@ def get_db():
   """
 
   if not hasattr(g, 'db'):
-
     g.db = psycopg2.connect(dbname='flaskapp',
 
                             user='flaskapp',
